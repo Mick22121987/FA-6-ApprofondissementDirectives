@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ColorDirective} from './shared/directives/color.directive';
+import { NgIfCustomDirective} from './shared/directives/ngIfCustom.directive';
 @NgModule({
   declarations: [
     AppComponent,
-    ColorDirective
+    ColorDirective,
+    NgIfCustomDirective
   ],
   imports: [
     BrowserModule

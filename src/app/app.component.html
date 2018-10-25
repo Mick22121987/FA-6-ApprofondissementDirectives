@@ -5,8 +5,11 @@
     <ul class="list-group">
       <li class="list-group-item">Item 1</li>
       <li [appColor]="{ text: 'purple', background: 'blue'}" class="list-group-item">Item 2</li>
-      <li class="list-group-item">Item 3</li>
-      <li class="list-group-item">Item 4</li>
+      <li *appNgIfCustom="false" class="list-group-item">Item 3</li>
+
+      <!-- <ng-template [ngIf]="true">
+        <li class="list-group-item">Item 4</li>
+      </ng-template> -->
     </ul>
   </div>
 </div>
